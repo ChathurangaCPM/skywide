@@ -14450,7 +14450,7 @@ function initMarkapMenu() {
     return;
   }
   for (var i = 1; i < _files_js__WEBPACK_IMPORTED_MODULE_0__["default"].length; i += 1) {
-    nav.innerHTML += "<a href=\"/".concat(_files_js__WEBPACK_IMPORTED_MODULE_0__["default"][i], "\">").concat(i, "-").concat(_files_js__WEBPACK_IMPORTED_MODULE_0__["default"][i], "</a>");
+    nav.innerHTML += "<a href=\"/skywide/".concat(_files_js__WEBPACK_IMPORTED_MODULE_0__["default"][i], "\">").concat(i, "-").concat(_files_js__WEBPACK_IMPORTED_MODULE_0__["default"][i], "</a>");
   }
   document.body.appendChild(wrapper);
   var flag = localStorage.getItem("flag") ? JSON.parse(localStorage.getItem("flag")) : false;
